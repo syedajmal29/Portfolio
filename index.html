@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajmal-Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8f988ce2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/AJMAL.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Web Developer</p>
+                <h1>Hi, I'm <span>Syed Ajmal</span> From India</h1>
+            </div>
+        </div>
+
+    </div>
+<!----------------about---------------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/user.png"> 
+                </div>
+                <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1>
+                     <p>Hello! I'm Syed Ajmal, a recent MCA graduate from VIT University with a passion for software development and a keen interest in creating innovative solutions. During my academic journey, I specialized in HTML, CSS, Javascript, React js, Nordejs, and I am excited to embark on my professional career in this dynamic field.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Semantic markup,accessibility considerations.</li>
+                            <li><span>CSS</span><br>Styling,layout
+                                techniques,CSS perprocessors like SASS</li>
+                            <li><span>Front-End Frameworks</span><br>Familiarity with React.js ,UI/UX Design</li>   
+                            <li><span>Back-End Development</span><br>Server-Side Languages Familiarity in server-side programming languages
+                                such as Node.js (JavaScript)</li> 
+                            <li><span>Back-End Frameworks</span><br> Django,Database Management Familirarity with relational database like MySQL</li>    
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Amazon Front-end Clone</span><br>Created a replica of the Amazon e-commerce platforms front-end interface using HTML, CSS, and JavaScript.</li>
+                            <li><span>Food Menu Website</span><br>Independently designed and developed a responsive restaurant website using HTML, CSS, and JavaScript.
+                                Implemented intuitive user interfaces and interactive features to enhance user experience</li>   
+                                <li><span>Building plasma donor application using cloud computing</span><br>In this role, I spearheaded the development of a robust and scalable Plasma Donor Application leveraging
+                                    cloud computing technologies. Responsible for the end-to-end development lifecycle, I utilized cloud services to
+                                    ensure seamless functionality, data security, and efficient scalability</li>
+                                <li><span>Credit Card Fraud ditection(Machine Learning)</span><br>Machine learning As a Software Developer specializing in Credit Card Fraud Detection, I contributed
+                                    significantly to model development and implementation. I participated in training machine learning models
+                                    optimizing parameters and fine-tuning for enhanced accuracy.</li>    
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            
+                            <li><span>MCA</span><br>Computer Application(2023-2024)</li>
+                            <li><span>BCA</span>Computer Application(2022-2023)</li>
+                               
+                        </ul>
+                     </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <!-------------------------services-------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Custom Web-Develpoment</h2>
+                    <p>Creating responsive, user-friendly, and visually appealing websites tailored to your brand and goals. From personal blogs to corporate websites, I ensure a seamless user experience across all devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Specializing in creating interactive and dynamic user interfaces using the latest technologies like HTML5, CSS3, JavaScript, and popular frameworks such as React</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Developing robust server-side solutions using technologies such as Node.js</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-------------portfolio ---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>This website allows user to shop Around world</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Restaurant Food Menu</h3>
+                        <p>This Allows user to easyly view food menu in website</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Restaurant Allocation website</h3>
+                        <p>This website allows view restaurant</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!--------------contact ------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>syedaju398@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone-flip"></i>9360190939</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/syed-ajmal-2a64661b1/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/syedajmal29"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/SyedAjmal29"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/syed_a_jmal_/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/AJMAL_Resume-1.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;Ajmal 2024. All rights reserved.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+       }
+   </script> 
+   <script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+    
+
+
+</script>
+
+<script>
+    const scriptURL =  'https://script.google.com/macros/s/AKfycbyuhkYrr7YbXhemZVX1IBRYZg3oSr4BNl3uFwNDjVMq_XUPOXhBwERqhwt03MNHCEd7/exec'
+    const form = document.forms ['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
